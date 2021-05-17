@@ -1,12 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        int InitialBalance = 20;
-        int BalanceTopUp = 100;
+        int initialBalance = 20;
+        int balanceTopUp = 100;
         int bonus;
-        if (BalanceTopUp >= 1_000){bonus = BalanceTopUp/100;
-        } else  {bonus = 0;
+        if (balanceTopUp >= 1_000) {
+            bonus = balanceTopUp / 100;
+        } else {
+            bonus = 0;
         }
-        int TotalBalance = InitialBalance + BalanceTopUp;
+        int TotalBalance = initialBalance + balanceTopUp;
         System.out.println("Total account Balance");
         System.out.println(TotalBalance);
         System.out.println("Total Bonus");
